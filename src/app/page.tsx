@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-6 py-10 bg-black text-white">
       <h1 className="text-5xl font-bold mb-4 text-center">🎬 Tier-Based Movie Library</h1>
-      <p className="text-xl text-gray-300 text-center mb-6">Watch only the movies you're allowed to access.</p>
+      <p className="text-xl text-gray-300 text-center mb-6">Watch only the movies you&apos;re allowed to access.</p>
 
       <SignedOut>
         <SignInButton>

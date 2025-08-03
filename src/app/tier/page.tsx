@@ -69,7 +69,7 @@ export default function TierSelectionPage() {
             <div className="mt-10 p-6 border rounded-xl bg-white shadow-md">
               <h2 className="text-xl font-bold mb-4">Dummy Payment</h2>
               <p className="mb-4">
-                You're upgrading to <strong>{selected}</strong> tier. Click below to simulate payment.
+                You&apos;re upgrading to <strong>{selected}</strong> tier. Click below to simulate payment.
               </p>
               <button
                 onClick={handleFakePayment}
