@@ -73,17 +73,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🔐 Demo User Credentials
+## 🔐 Demo User Credentials
+
 Use the following credentials to log in and test different tier levels:
 
-Tier	Email	Password
-Free	free@demo.com	Eefr123@
-Silver	silver@demo.com	Versil123@
-Gold	gold@demo.com	Ldgo123@
-Platinum	platinum@demo.com	Numplati123@
+| **Tier**    | **Email**              | **Password**     |
+|-------------|------------------------|------------------|
+| Free        | free@demo.com          | Eefr123@         |
+| Silver      | silver@demo.com        | Versil123@       |
+| Gold        | gold@demo.com          | Ldgo123@         |
+| Platinum    | platinum@demo.com      | Numplati123@     |
 
-You can edit each user’s tier in the Clerk Dashboard under Public Metadata → { "tier": "silver" }.
-
+> 🔧 You can set or change a user’s tier in the Clerk Dashboard under **User > Metadata > publicMetadata** like:
+```json
+{
+  "tier": "gold"
+}
+```
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
