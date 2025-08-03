@@ -1,6 +1,6 @@
 # 🎬 Tier-Based Event Showcase
 
-A modern, tier-based movie showcase platform built with **Next.js 15**, **Clerk**, **Supabase**, and **OpenAI**. Users can upgrade their subscription tier to access premium movie content and receive AI-based movie recommendations.
+A modern, tier-based movie showcase platform built with **Next.js 15**, **Clerk**, **Supabase** and **TailwindCSS**. Users can upgrade their subscription tier to access premium movie content and receive AI-based movie recommendations.
 
 ---
 
@@ -72,6 +72,17 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+🔐 Demo User Credentials
+Use the following credentials to log in and test different tier levels:
+
+Tier	Email	Password
+Free	free@demo.com	Eefr123@
+Silver	silver@demo.com	Versil123@
+Gold	gold@demo.com	Ldgo123@
+Platinum	platinum@demo.com	Numplati123@
+
+You can edit each user’s tier in the Clerk Dashboard under Public Metadata → { "tier": "silver" }.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
