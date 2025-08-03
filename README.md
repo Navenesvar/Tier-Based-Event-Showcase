@@ -1,8 +1,65 @@
+# 🎬 Tier-Based Event Showcase
+
+A modern, tier-based movie showcase platform built with **Next.js 15**, **Clerk**, **Supabase**, and **OpenAI**. Users can upgrade their subscription tier to access premium movie content and receive AI-based movie recommendations.
+
+---
+
+## 🚀 Features
+
+- 👤 **Authentication** via Clerk (sign-in/sign-up, session handling)
+- 🔐 **Tiered Access Control** (Free, Silver, Gold, Platinum)
+- 💳 **Upgrade System** with fake/dummy payments
+- 📦 **Supabase**-backed movie data storage
+- 🤖 **AI Movie Recommendation** using OpenAI
+- 🌈 **Responsive, modern UI** with Tailwind CSS
+- 🛡️ Secure route handling and dynamic tier-based content locking
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool        | Purpose                     |
+|-------------|-----------------------------|
+| **Next.js** | React framework             |
+| **Clerk**   | User authentication         |
+| **Supabase**| Backend-as-a-Service (DB)   |
+| **OpenAI**  | AI movie recommendations    |
+| **Tailwind**| Styling                     |
+| **Vercel**  | Deployment platform         |
+
+---
+
+## 🧑‍💻 Local Setup
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/Navenesvar/Tier-Based-Event-Showcase.git
+cd Tier-Based-Event-Showcase
+```
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
+
+Install dependencies
+
+```bash
+
+npm install
+```
+Create .env.local file
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+NEXT_PUBLIC_SUPABASE_URL=https://xyz.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+OPENAI_API_KEY=your_openai_key
+```
+Run the app
 
 ```bash
 npm run dev
