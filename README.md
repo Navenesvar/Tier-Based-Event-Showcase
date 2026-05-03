@@ -1,6 +1,6 @@
 # 🎬 Tier-Based Event Showcase
 
-A modern, tier-based movie showcase platform(frontend) built with **Next.js 15**, **Clerk**, **Supabase** and **TailwindCSS**. Users can upgrade their subscription tier to access premium movie content and receive AI-based movie recommendations.
+A modern, tier-based movie showcase platform(frontend) built with **Next.js 15**, **Clerk**, **Supabase** and **TailwindCSS**. Users can upgrade their subscription tier to access premium movie content.
 
 [🌐 Live Demo](https://tier-based-event-showcase-k3yh.vercel.app/)
 
@@ -11,7 +11,6 @@ A modern, tier-based movie showcase platform(frontend) built with **Next.js 15**
 - 🔐 **Tiered Access Control** (Free, Silver, Gold, Platinum)
 - 💳 **Upgrade System** with fake/dummy payments
 - 📦 **Supabase**-backed movie data storage
-- 🤖 **AI Movie Recommendation** using OpenAI
 - 🌈 **Responsive, modern UI** with Tailwind CSS
 - 🛡️ Secure route handling and dynamic tier-based content locking
 
@@ -24,7 +23,6 @@ A modern, tier-based movie showcase platform(frontend) built with **Next.js 15**
 | **Next.js** | React framework             |
 | **Clerk**   | User authentication         |
 | **Supabase**| Backend-as-a-Service (DB)   |
-| **OpenAI**  | AI movie recommendations    |
 | **Tailwind**| Styling                     |
 | **Vercel**  | Deployment platform         |
 
