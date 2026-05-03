@@ -2,8 +2,6 @@
 
 A modern, tier-based movie showcase platform(frontend) built with **Next.js 15**, **Clerk**, **Supabase** and **TailwindCSS**. Users can upgrade their subscription tier to access premium movie content.
 
-[🌐 Live Demo](https://tier-based-event-showcase-k3yh.vercel.app/)
-
 
 ## 🚀 Features
 
